@@ -6,7 +6,7 @@ braze_track = "https://rest.iad-06.braze.com/users/track"
 
 track_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 8d2ed3c7-cb38-4a67-9001-9051f4a8a02e"
+    "Authorization": "Bearer api_key"
 }
 
 df = pd.read_csv("easterseals_attribute.csv")
